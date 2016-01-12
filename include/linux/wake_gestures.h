@@ -24,6 +24,7 @@
 #include <linux/input.h>
 
 extern int s2w_switch;
+extern int camera_switch;
 extern bool dt2w_switch;
 bool scr_suspended(void);
 bool get_internal_dt(void);
